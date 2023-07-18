@@ -1,15 +1,26 @@
 .titulo{
     display: flex;
-    padding-top: 15%;
     height: 93vh;
     width: 100vw;
     justify-content: center;
-    background-image: url(../assets/img/banner.jpg);
-    background-size:contain;
-    background-position:center;
-    background-repeat:no-repeat;
-    font-family: "Poppin", sans-serif;
+    align-items: center;
+    background-color: rgb(19, 99, 3);
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
 }
 .subtitulos{
+    display: flex;
+}
+
+.card-group{
+    display: flex;
+    justify-content: center;
+}
+
+.card-group .card{
+    margin: 1rem;
+}
+
+.NotiActuales{
     display: flex;
 }
