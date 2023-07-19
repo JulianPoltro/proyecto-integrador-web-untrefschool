@@ -23,7 +23,7 @@ main {
   width: 100vw;
   justify-content: center;
   align-items: center;
-  background-color: rgb(19, 99, 3);
+  background-color: #1F8A70;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
@@ -46,7 +46,7 @@ main {
 }
 
 .footer-link {
-  background-color: lightgreen;
+  background-color: #FC7300;
 }
 .footer-link ul {
   list-style: none;
@@ -55,7 +55,53 @@ main {
 }
 .footer-link ul a {
   text-decoration: none;
-  color: rgb(78, 75, 75);
+  color: #181823;
+}
+
+.form {
+  width: 300px;
+  padding: 16px;
+  margin: auto;
+  border: 3px solid #00425A;
+}
+.form label {
+  width: 70px;
+  display: inline-block;
+}
+.form input[type=text],
+.form input[type=email] {
+  width: 180px;
+  padding: 3px 10px;
+  border: 1px solid #00425A;
+  background-color: #1F8A70;
+  color: #181823;
+  display: inline-block;
+  margin: 5px 0px;
+}
+
+.text-area {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  resize: none;
+}
+
+.form input[type=submit] {
+  background-color: #1F8A70;
+}
+
+.form input[type=submit]:hover {
+  cursor: pointer;
+  color: #EFF5F5;
+}
+
+.form input[type=reset] {
+  background-color: #1F8A70;
+}
+
+.form input[type=reset]:hover {
+  cursor: pointer;
+  color: #EFF5F5;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 .footer-link {
-    background-color: lightgreen;
+    background-color: $color-orange;
 
     ul {
         list-style: none;
@@ -8,7 +8,7 @@
 
         a {
             text-decoration: none;
-            color: rgb(78, 75, 75);
+            color: $color-dark;
         }
     }
 }

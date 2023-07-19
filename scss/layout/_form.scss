@@ -1,0 +1,47 @@
+.form {
+    width: 300px;
+    padding: 16px;
+    margin: auto;
+    border: 3px solid $color-blue;
+
+    label {
+        width: 70px;
+        display: inline-block;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 180px;
+        padding: 3px 10px;
+        border: 1px solid $color-blue;
+        background-color: $color-green;
+        color: $color-dark;
+        display: inline-block;
+        margin: 5px 0px;
+    }
+}
+
+.text-area {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    resize: none;
+}
+
+.form input[type="submit"] {
+    background-color: $color-green;
+}
+
+.form input[type="submit"]:hover {
+    cursor: pointer;
+    color: $color-withe;
+}
+
+.form input[type="reset"] {
+    background-color: $color-green;
+}
+
+.form input[type="reset"]:hover {
+    cursor: pointer;
+    color: $color-withe;
+}
