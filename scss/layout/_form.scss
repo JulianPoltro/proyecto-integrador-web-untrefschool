@@ -1,23 +1,29 @@
 .form {
-    width: 300px;
+    width: 25vw;
     padding: 16px;
     margin: auto;
     border: 3px solid $color-blue;
+    border-radius: 10%;
 
     label {
-        width: 70px;
         display: inline-block;
     }
 
     input[type="text"],
-    input[type="email"] {
-        width: 180px;
+    input[type="email"], 
+    input[type="tel"] {
+        width: 20vw;
         padding: 3px 10px;
         border: 1px solid $color-blue;
         background-color: $color-green;
         color: $color-dark;
         display: inline-block;
         margin: 5px 0px;
+    }
+    input[type="text"]::placeholder,
+    input[type="email"]::placeholder,
+    input[type="tel"]::placeholder{
+        color: $color-withe;
     }
 }
 

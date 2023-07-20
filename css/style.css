@@ -30,6 +30,7 @@ main {
 
 .subtitulos {
   display: flex;
+  font-family: "Belanosima", sans-serif;
 }
 
 .card-group {
@@ -59,24 +60,30 @@ main {
 }
 
 .form {
-  width: 300px;
+  width: 25vw;
   padding: 16px;
   margin: auto;
   border: 3px solid #00425A;
+  border-radius: 10%;
 }
 .form label {
-  width: 70px;
   display: inline-block;
 }
 .form input[type=text],
-.form input[type=email] {
-  width: 180px;
+.form input[type=email],
+.form input[type=tel] {
+  width: 20vw;
   padding: 3px 10px;
   border: 1px solid #00425A;
   background-color: #1F8A70;
   color: #181823;
   display: inline-block;
   margin: 5px 0px;
+}
+.form input[type=text]::placeholder,
+.form input[type=email]::placeholder,
+.form input[type=tel]::placeholder {
+  color: #EFF5F5;
 }
 
 .text-area {

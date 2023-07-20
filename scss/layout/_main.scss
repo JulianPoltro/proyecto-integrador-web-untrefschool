@@ -5,11 +5,12 @@
     justify-content: center;
     align-items: center;
     background-color: $color-green;
-    font-family: $fuente-poppins;
+    font-family: $fuente-general;
     font-weight: bold;
 }
 .subtitulos{
     display: flex;
+    font-family: $fuente-titulo;
 }
 
 .card-group{
