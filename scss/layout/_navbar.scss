@@ -1,7 +1,13 @@
-.enlaces {
+.nav-link{
     text-decoration: none;
 }
+.nav-pills .nav-item .nav-link:not(.active) {
 
-.enlaces:active {
+    background-color: #fff;
+    color: black;
+}
+
+.nav-pills .nav-item .nav-link {
+    background-color: rgba(0, 255, 0, 0.5);
     color: white;
 }

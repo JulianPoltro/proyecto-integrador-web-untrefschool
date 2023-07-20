@@ -9,11 +9,17 @@ main {
   font-family: "Belanosima", sans-serif;
 }
 
-.enlaces {
+.nav-link {
   text-decoration: none;
 }
 
-.enlaces:active {
+.nav-pills .nav-item .nav-link:not(.active) {
+  background-color: #fff;
+  color: black;
+}
+
+.nav-pills .nav-item .nav-link {
+  background-color: rgba(0, 255, 0, 0.5);
   color: white;
 }
 
@@ -65,6 +71,7 @@ main {
   margin: auto;
   border: 3px solid #00425A;
   border-radius: 10%;
+  background-color: #EFF5F5;
 }
 .form label {
   display: inline-block;
