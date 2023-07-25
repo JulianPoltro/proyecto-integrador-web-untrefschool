@@ -9,33 +9,40 @@ main {
   font-family: "Belanosima", sans-serif;
 }
 
-.nav-link {
-  text-decoration: none;
+.navbar-nav {
+  padding: 0.25rem 0.25rem;
+  justify-content: space-around;
 }
-
-.nav-pills .nav-item .nav-link:not(.active) {
-  background-color: #fff;
+.navbar-nav .nav-item {
+  border: 1px solid black;
+  margin-left: 4px;
+}
+.navbar-nav .nav-item .nav-link:not(.active) {
+  background-color: #EFF5F5;
   color: black;
+  opacity: 75%;
 }
-
-.nav-pills .nav-item .nav-link {
-  background-color: rgba(0, 255, 0, 0.5);
+.navbar-nav .nav-item .nav-link {
+  background-color: #1F8A70;
   color: white;
 }
 
 .titulo {
   display: flex;
-  height: 93vh;
+  height: 100vh;
   width: 100vw;
   justify-content: center;
   align-items: center;
-  background-color: #1F8A70;
+  background-image: url(../assets/img/banner.jpg);
+  background-position: center;
+  background-size: cover;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
 
-.subtitulos {
+.subtitulo {
   display: flex;
+  color: #EFF5F5;
   font-family: "Belanosima", sans-serif;
 }
 
