@@ -15,12 +15,30 @@
         font-weight: bold;
         font-size: 60px;
     }
+    a{
+        position: absolute;
+        padding: 5px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: 90%;
+        text-decoration: none;
+        font-family: $fuente-general;
+        font-weight: bold;
+        font-size: 20px;
+        border: 1px solid $color-dark;
+        background-color: $color-withe;
+        color: $color-dark;
+        opacity: 75%;
+    }
+    a:hover{
+        opacity: 100%;
+        background-color: $color-green;
+    }
 }
 
 
 .infoSection{
-    margin-top: 3vh;
-    padding-top: 60px;
+    margin-top: 60px;
     border: 1px solid red;
 }
 .subtitulo{
