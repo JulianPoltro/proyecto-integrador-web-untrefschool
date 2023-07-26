@@ -17,8 +17,10 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top" id="barraNavegacion">
             <div class="navbar_contenedor container-fluid">
+                <!-- 
+                <a class="navbar-brand" href="#home"><img src="./assets/img/logos-01.png" alt="logo untref"></a> -->
                 <!-- Icono Hamburguesa -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#manuHambur"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +29,7 @@
                 <!-- Elementos colapsables -->
                 <div class="collapse navbar-collapse" id="manuHambur">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#home">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="#Quienes">Quienes somos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#Por_que">¿Por qué elegirnos?</a></li>
                         <li class="nav-item"><a class="nav-link" href="#Propuesta">Propuesta educativa</a></li>
@@ -40,12 +42,12 @@
     </header>
 
 
-    <main class="main">
-        <section class="titulo">
-            <h1>UNTref School</h1>
+    <main class="main" data-bs-spy="scroll" data-bs-target="#barraNavegacion" data-bs-offset="0" tabindex="0">
+        <section id="home">
+            <h1 class="titulo">UNTref School</h1>
         </section>
 
-        <section class="container" id="Quienes">
+        <section class="container infoSection" id="Quienes">
             <h3>QUIENES SOMOS</h3>
             <div class="card mb-3">
                 <div class="row g-0">
@@ -66,7 +68,7 @@
         </section>
 
 
-        <section class="container" id="Por_que">
+        <section class="container infoSection" id="Por_que">
             <h3>¿Por qué elegirnos?</h3>
             <div class="card mb-3">
                 <div class="row g-0">
@@ -121,17 +123,11 @@
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                     </div>
-
                 </div>
-
             </div>
 
-
-
-
-
         </section>
-        <section class="container" id="Noticias">
+        <section class="container infoSection" id="Noticias">
             <h3>Últimas noticias</h3>
 
             <div class="NotiActuales">
