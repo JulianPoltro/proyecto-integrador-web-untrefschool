@@ -38,7 +38,7 @@ main {
   background-color: #1F8A70;
 }
 
-.titulo {
+.landing {
   height: 100vh;
   width: 100%;
   background-image: url(../assets/img/banner.jpg);
@@ -46,7 +46,7 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.titulo h1 {
+.landing h1 {
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
