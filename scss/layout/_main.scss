@@ -1,5 +1,5 @@
 .landing{
-    height: 100vh;
+    min-height:100vh;
     width: 100%;
     background-image: url(../assets/img/banner.jpg);
     background-position:bottom;
@@ -29,6 +29,8 @@
         background-color: $color-withe;
         color: $color-dark;
         opacity: 75%;
+        transition:ease-in-out;
+        transition-duration: 500ms;
     }
     a:hover{
         opacity: 100%;
@@ -36,11 +38,11 @@
     }
 }
 
-
-.infoSection{
-    margin-top: 60px;
-    border: 1px solid red;
+.main section:nth-child(n+2){
+    padding: 65px 20px;
+    margin-top: 20px;
 }
+
 .subtitulo{
     display: flex;
     color: $color-withe;

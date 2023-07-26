@@ -16,11 +16,9 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav class="navbar navbar-expand-lg" id="barraNavegacion">
-            <div class="navbar_contenedor container-fluid">
-                <!-- 
-                <a class="navbar-brand" href="#home"><img src="./assets/img/logos-01.png" alt="logo untref"></a> -->
+            <div class="container-fluid">
                 <!-- Icono Hamburguesa -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#manuHambur"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,13 +40,14 @@
     </header>
 
 
-    <main class="main" data-bs-spy="scroll" data-bs-target="#barraNavegacion" data-bs-offset="0" tabindex="0">
-        <section class="landing" id="home">
-            <h1 >UNTrefSchool</h1>
+    <main class="main" data-bs-spy="scroll" data-bs-target="#barraNavegacion">
+
+        <section class="landing container-fluid" id="home">
+            <h1>UNTrefSchool</h1>
             <a href="./pages/contacto.html">Contáctanos</a>
         </section>
 
-        <section class="container infoSection" id="Quienes">
+        <section class="container" id="Quienes">
             <h3>QUIENES SOMOS</h3>
             <div class="card mb-3">
                 <div class="row g-0">
@@ -57,7 +56,16 @@
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas similique id nam blanditiis minus impedit libero tempore mollitia obcaecati perspiciatis consequuntur facere beatae neque consectetur, dolorem corrupti, recusandae dolores a laudantium unde dignissimos delectus, deleniti quae. Odio fuga, eveniet veritatis iusto optio maxime incidunt, dignissimos dolores impedit aliquid culpa provident! Suscipit necessitatibus, est magni fugiat quas veritatis reiciendis soluta. Veritatis officiis totam vitae vel accusantium, delectus quaerat ducimus dignissimos, ad excepturi iste cupiditate exercitationem aliquid rerum. Veritatis similique quibusdam quos pariatur voluptas eaque impedit reiciendis rerum natus, excepturi veniam non, sunt adipisci maiores! Iure ducimus error et sunt facilis quisquam?</p>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas
+                                similique id nam blanditiis minus impedit libero tempore mollitia obcaecati perspiciatis
+                                consequuntur facere beatae neque consectetur, dolorem corrupti, recusandae dolores a
+                                laudantium unde dignissimos delectus, deleniti quae. Odio fuga, eveniet veritatis iusto
+                                optio maxime incidunt, dignissimos dolores impedit aliquid culpa provident! Suscipit
+                                necessitatibus, est magni fugiat quas veritatis reiciendis soluta. Veritatis officiis
+                                totam vitae vel accusantium, delectus quaerat ducimus dignissimos, ad excepturi iste
+                                cupiditate exercitationem aliquid rerum. Veritatis similique quibusdam quos pariatur
+                                voluptas eaque impedit reiciendis rerum natus, excepturi veniam non, sunt adipisci
+                                maiores! Iure ducimus error et sunt facilis quisquam?</p>
                         </div>
                     </div>
                 </div>
@@ -65,13 +73,22 @@
         </section>
 
 
-        <section class="container infoSection" id="Por_que">
+        <section class="container" id="Por_que">
             <h3>¿Por qué elegirnos?</h3>
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-8">
                         <div class="card-body">
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia blanditiis vel, assumenda eum error itaque pariatur officiis repudiandae ducimus necessitatibus laudantium fugiat nemo eligendi aut omnis magni aperiam. Modi nostrum in blanditiis, distinctio at aspernatur dolorum, voluptatum quae dolorem ullam nesciunt aliquam illo ea dolores delectus? Quae quis laudantium enim laborum fugit in adipisci fuga quas consequuntur numquam consequatur laboriosam, beatae autem totam cumque quaerat eveniet neque exercitationem. Quasi officiis, aperiam recusandae, repellat iusto eum omnis sapiente soluta consequuntur tempore numquam aliquam nisi. Accusamus amet voluptatum earum reiciendis in maxime adipisci perspiciatis sint! Molestias assumenda nemo animi deserunt temporibus eveniet.</p>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+                                blanditiis vel, assumenda eum error itaque pariatur officiis repudiandae ducimus
+                                necessitatibus laudantium fugiat nemo eligendi aut omnis magni aperiam. Modi nostrum in
+                                blanditiis, distinctio at aspernatur dolorum, voluptatum quae dolorem ullam nesciunt
+                                aliquam illo ea dolores delectus? Quae quis laudantium enim laborum fugit in adipisci
+                                fuga quas consequuntur numquam consequatur laboriosam, beatae autem totam cumque quaerat
+                                eveniet neque exercitationem. Quasi officiis, aperiam recusandae, repellat iusto eum
+                                omnis sapiente soluta consequuntur tempore numquam aliquam nisi. Accusamus amet
+                                voluptatum earum reiciendis in maxime adipisci perspiciatis sint! Molestias assumenda
+                                nemo animi deserunt temporibus eveniet.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -82,7 +99,7 @@
         </section>
 
 
-        <section class="container infoSection" id="Propuesta">
+        <section class="container" id="Propuesta">
             <div>
                 <h3>Propuestas educativas</h3>
             </div>
@@ -120,7 +137,8 @@
             </div>
 
         </section>
-        <section class="container infoSection" id="Noticias">
+
+        <section class="container" id="Noticias">
             <h3>Últimas noticias</h3>
 
             <div class="NotiActuales">
@@ -128,13 +146,33 @@
                     <h3>Noticia 1</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis voluptatibus deserunt
                         fugiat ut officiis, quis unde sapiente sequi animi temporibus laudantium porro, odit at! Dolorem
-                        laudantium quod soluta voluptatem distinctio.</p>
+                        laudantium quod soluta voluptatem distinctio.Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Mollitia
+                        blanditiis vel, assumenda eum error itaque pariatur officiis repudiandae ducimus
+                        necessitatibus laudantium fugiat nemo eligendi aut omnis magni aperiam. Modi nostrum in
+                        blanditiis, distinctio at aspernatur dolorum, voluptatum quae dolorem ullam nesciunt
+                        aliquam illo ea dolores delectus? Quae quis laudantium enim laborum fugit in adipisci
+                        fuga quas consequuntur numquam consequatur laboriosam, beatae autem totam cumque quaerat
+                        eveniet neque exercitationem. Quasi officiis, aperiam recusandae, repellat iusto eum
+                        omnis sapiente soluta consequuntur tempore numquam aliquam nisi. Accusamus amet
+                        voluptatum earum reiciendis in maxime adipisci perspiciatis sint! Molestias assumenda
+                        nemo animi deserunt temporibus eveniet.</p>
                 </div>
                 <div>
                     <h3>Noticia 2</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis voluptatibus deserunt
                         fugiat ut officiis, quis unde sapiente sequi animi temporibus laudantium porro, odit at! Dolorem
-                        laudantium quod soluta voluptatem distinctio.</p>
+                        laudantium quod soluta voluptatem distinctio.Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Mollitia
+                        blanditiis vel, assumenda eum error itaque pariatur officiis repudiandae ducimus
+                        necessitatibus laudantium fugiat nemo eligendi aut omnis magni aperiam. Modi nostrum in
+                        blanditiis, distinctio at aspernatur dolorum, voluptatum quae dolorem ullam nesciunt
+                        aliquam illo ea dolores delectus? Quae quis laudantium enim laborum fugit in adipisci
+                        fuga quas consequuntur numquam consequatur laboriosam, beatae autem totam cumque quaerat
+                        eveniet neque exercitationem. Quasi officiis, aperiam recusandae, repellat iusto eum
+                        omnis sapiente soluta consequuntur tempore numquam aliquam nisi. Accusamus amet
+                        voluptatum earum reiciendis in maxime adipisci perspiciatis sint! Molestias assumenda
+                        nemo animi deserunt temporibus eveniet.</p>
                 </div>
             </div>
         </section>
@@ -142,9 +180,9 @@
 
 
     <footer class="container">
-        <section class="footer container">
-            <h1>FOOTER</h1>
-            <div class="footer-link">
+        <section class="footer container row">
+            <div class="footer-link col">
+                <h3>Redes Sociales</h3>
                 <ul>
                     <li><a href="https://www.Instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i>
                             Instagram</a></li>
@@ -153,12 +191,24 @@
                     <li><a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i>
                             Linkedin</a></li>
                 </ul>
+            </div>
+
+            <div class="footer-link col">
+                <h3>Map</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d329.1329860729123!2d-60.28988226389308!3d-35.0349603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bec1a5f5ce7b3b%3A0x740acd55db041409!2sPunto%20Digital%20Alberti!5e1!3m2!1ses-419!2sar!4v1690384075790!5m2!1ses-419!2sar"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="footer-link col">
+                <h3>Contacto</h3>
                 <ul>
-                    <li><a href="mailto:julianpoltronieri@gmail.com"><i class="fa-regular fa-envelope"></i> Correo</a>
-                    </li>
+                    <li><a href="mailto:untrefschool@untref.edu.ar"><i class="fa-regular fa-envelope"></i>
+                            Correo</a></li>
                     <li><a href="https://wa.me/555666777?text=Hola!" target="_blank"><i
                                 class="fa-brands fa-whatsapp"></i>
                             Whatsapp</a></li>
+                    <li><a href="tel:+5412345678" target="_blank"><i class="fa-brands fa-whatsapp"></i>
+                            +54 (11) 1234-5678</a></li>
                 </ul>
             </div>
     </footer>
@@ -176,13 +226,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
         </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script>
-        $(".navbar-nav li a").on("click", function () {
-            $(".navbar-nav li a").removeClass("active");
-            $(this).addClass("active");
-        });
-    </script>
 </body>
 
 </html>

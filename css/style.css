@@ -9,10 +9,10 @@ main {
   font-family: "Belanosima", sans-serif;
 }
 
-.navbar {
+.header {
   position: fixed;
   top: 0;
-  z-index: 9999;
+  z-index: 10;
   width: 100%;
   height: 60px;
 }
@@ -23,6 +23,8 @@ main {
 .navbar-nav .nav-item {
   border: 1px solid #181823;
   margin-left: 4px;
+  transition: ease-in-out;
+  transition-duration: 500ms;
 }
 .navbar-nav .nav-item .nav-link:not(.active) {
   background-color: #EFF5F5;
@@ -39,7 +41,7 @@ main {
 }
 
 .landing {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-image: url(../assets/img/banner.jpg);
   background-position: bottom;
@@ -70,15 +72,17 @@ main {
   background-color: #EFF5F5;
   color: #181823;
   opacity: 75%;
+  transition: ease-in-out;
+  transition-duration: 500ms;
 }
 .landing a:hover {
   opacity: 100%;
   background-color: #1F8A70;
 }
 
-.infoSection {
-  margin-top: 60px;
-  border: 1px solid red;
+.main section:nth-child(n+2) {
+  padding: 65px 20px;
+  margin-top: 20px;
 }
 
 .subtitulo {
@@ -100,9 +104,6 @@ main {
   display: flex;
 }
 
-.footer-link {
-  background-color: #FC7300;
-}
 .footer-link ul {
   list-style: none;
   margin: 15px;
