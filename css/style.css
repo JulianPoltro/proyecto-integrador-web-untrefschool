@@ -96,7 +96,14 @@ main {
   text-transform: uppercase;
 }
 
-.card-group {
+.NotiActuales {
+  display: flex;
+}
+.NotiActuales p {
+  font-family: "Poppins", sans-serif;
+}
+
+.contenedor-cards {
   display: flex;
   justify-content: center;
 }
@@ -106,14 +113,6 @@ main {
   align-items: center;
   font-size: x-large;
   font-family: "Poppins", sans-serif;
-}
-
-.card-group .card {
-  margin: 1rem;
-}
-
-.NotiActuales {
-  display: flex;
 }
 
 .footer-link ul {

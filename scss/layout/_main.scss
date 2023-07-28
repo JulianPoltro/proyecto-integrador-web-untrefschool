@@ -1,11 +1,12 @@
-.landing{
-    min-height:100vh;
+.landing {
+    min-height: 100vh;
     width: 100%;
     background-image: url(../assets/img/banner.webp);
-    background-position:bottom;
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    h1{
+
+    h1 {
         position: absolute;
         left: 50%;
         transform: translate(-50%, 0);
@@ -15,7 +16,8 @@
         font-weight: bold;
         font-size: 60px;
     }
-    a{
+
+    a {
         position: absolute;
         padding: 5px;
         left: 50%;
@@ -29,45 +31,37 @@
         background-color: $color-withe;
         color: $color-dark;
         opacity: 75%;
-        transition:ease-in-out;
+        transition: ease-in-out;
         transition-duration: 500ms;
     }
-    a:hover{
+
+    a:hover {
         opacity: 100%;
         background-color: $color-green;
     }
 }
 
-.main section:nth-child(n+2){
+.main section:nth-child(n+2) {
     padding: 65px 20px;
     margin-top: 20px;
-    h3{
+
+    h3 {
         font-family: $fuente-titulo;
         text-transform: uppercase;
     }
 }
 
-.subtitulo{
+.subtitulo {
     display: flex;
     color: $color-withe;
     font-family: $fuente-titulo;
     text-transform: uppercase;
 }
 
-.card-group{
+.NotiActuales {
     display: flex;
-    justify-content: center;
-}
-.texto-card{
-    display: flex;
-    align-items: center;
-    font-size: x-large;
-    font-family: $fuente-general;
-}
-.card-group .card{
-    margin: 1rem;
-}
 
-.NotiActuales{
-    display: flex;
+    p {
+        font-family: $fuente-general;
+    }
 }
