@@ -115,8 +115,16 @@ main {
   align-items: center;
   font-size: x-large;
   font-family: "Poppins", sans-serif;
+  color: #181823;
 }
 
+.card-title {
+  color: #181823;
+}
+
+.footer-link h3 {
+  font-family: "Belanosima", sans-serif;
+}
 .footer-link ul {
   list-style: none;
   margin: 15px;
@@ -124,7 +132,7 @@ main {
 }
 .footer-link ul a {
   text-decoration: none;
-  color: #181823;
+  color: #EFF5F5;
 }
 
 .form {
