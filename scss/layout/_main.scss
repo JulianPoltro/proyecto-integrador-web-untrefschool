@@ -49,6 +49,9 @@
         font-family: $fuente-titulo;
         text-transform: uppercase;
     }
+    p {
+        font-family: $fuente-general;
+    }
 }
 
 .subtitulo {
@@ -56,12 +59,4 @@
     color: $color-withe;
     font-family: $fuente-titulo;
     text-transform: uppercase;
-}
-
-.NotiActuales {
-    display: flex;
-
-    p {
-        font-family: $fuente-general;
-    }
 }

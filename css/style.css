@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #1F8A70;
+  background-image: linear-gradient(135deg, #1F8A70 0%, #00425A 50%, #181823 100%);
+  color: #EFF5F5;
+}
+
 main {
   font-family: "Belanosima", sans-serif;
 }
@@ -88,19 +94,15 @@ main {
   font-family: "Belanosima", sans-serif;
   text-transform: uppercase;
 }
+.main section:nth-child(n+2) p {
+  font-family: "Poppins", sans-serif;
+}
 
 .subtitulo {
   display: flex;
   color: #EFF5F5;
   font-family: "Belanosima", sans-serif;
   text-transform: uppercase;
-}
-
-.NotiActuales {
-  display: flex;
-}
-.NotiActuales p {
-  font-family: "Poppins", sans-serif;
 }
 
 .contenedor-cards {
