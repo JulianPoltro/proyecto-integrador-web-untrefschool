@@ -25,11 +25,11 @@
         top: 90%;
         text-decoration: none;
         font-family: $fuente-general;
+        color: $color-dark;
         font-weight: bold;
         font-size: 20px;
         border: 1px solid $color-dark;
         background-color: $color-withe;
-        color: $color-dark;
         opacity: 75%;
         transition: ease-in-out;
         transition-duration: 500ms;
@@ -44,7 +44,7 @@
 .main section:nth-child(n+2) {
     padding: 65px 20px;
     margin-top: 20px;
-
+    color: $color-withe;
     h3 {
         font-family: $fuente-titulo;
         text-transform: uppercase;
@@ -52,11 +52,4 @@
     p {
         font-family: $fuente-general;
     }
-}
-
-.subtitulo {
-    display: flex;
-    color: $color-withe;
-    font-family: $fuente-titulo;
-    text-transform: uppercase;
 }

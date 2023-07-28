@@ -8,7 +8,6 @@
 body {
   background-color: #1F8A70;
   background-image: linear-gradient(135deg, #1F8A70 0%, #00425A 50%, #181823 100%);
-  color: #EFF5F5;
 }
 
 main {
@@ -72,11 +71,11 @@ main {
   top: 90%;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
+  color: #181823;
   font-weight: bold;
   font-size: 20px;
   border: 1px solid #181823;
   background-color: #EFF5F5;
-  color: #181823;
   opacity: 75%;
   transition: ease-in-out;
   transition-duration: 500ms;
@@ -89,6 +88,7 @@ main {
 .main section:nth-child(n+2) {
   padding: 65px 20px;
   margin-top: 20px;
+  color: #EFF5F5;
 }
 .main section:nth-child(n+2) h3 {
   font-family: "Belanosima", sans-serif;
@@ -96,13 +96,6 @@ main {
 }
 .main section:nth-child(n+2) p {
   font-family: "Poppins", sans-serif;
-}
-
-.subtitulo {
-  display: flex;
-  color: #EFF5F5;
-  font-family: "Belanosima", sans-serif;
-  text-transform: uppercase;
 }
 
 .contenedor-cards {
@@ -124,6 +117,7 @@ main {
 
 .footer-link h3 {
   font-family: "Belanosima", sans-serif;
+  color: #EFF5F5;
 }
 .footer-link ul {
   list-style: none;
@@ -135,16 +129,24 @@ main {
   color: #EFF5F5;
 }
 
+.subtitulo {
+  display: flex;
+  color: #EFF5F5;
+  font-family: "Belanosima", sans-serif;
+  text-transform: uppercase;
+}
+
 .form {
-  width: 25vw;
+  width: 45vw;
   padding: 16px;
   margin: auto;
   border: 3px solid #00425A;
-  border-radius: 10%;
   background-color: #EFF5F5;
 }
 .form label {
   display: inline-block;
+  width: 20vw;
+  padding: 3px 10px;
 }
 .form input[type=text],
 .form input[type=email],
@@ -186,6 +188,10 @@ main {
 .form input[type=reset]:hover {
   cursor: pointer;
   color: #EFF5F5;
+}
+
+.boton {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

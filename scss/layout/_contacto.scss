@@ -1,13 +1,21 @@
+.subtitulo {
+    display: flex;
+    color: $color-withe;
+    font-family: $fuente-titulo;
+    text-transform: uppercase;
+}
+
 .form {
-    width: 25vw;
+    width: 45vw;
     padding: 16px;
     margin: auto;
     border: 3px solid $color-blue;
-    border-radius: 10%;
     background-color: $color-withe;
 
     label {
         display: inline-block;
+        width: 20vw;
+        padding: 3px 10px;
     }
 
     input[type="text"],
@@ -51,4 +59,7 @@
 .form input[type="reset"]:hover {
     cursor: pointer;
     color: $color-withe;
+}
+.boton{
+    display: flex;
 }
