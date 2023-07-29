@@ -1,12 +1,12 @@
+
 .subtitulo {
     display: flex;
     color: $color-withe;
     font-family: $fuente-titulo;
     text-transform: uppercase;
 }
-
 .form {
-    width: 45vw;
+    width: 600px;
     padding: 16px;
     margin: auto;
     border: 3px solid $color-blue;
@@ -14,14 +14,14 @@
 
     label {
         display: inline-block;
-        width: 20vw;
+        width: 250px;
         padding: 3px 10px;
     }
 
     input[type="text"],
     input[type="email"], 
     input[type="tel"] {
-        width: 20vw;
+        width: 250px;
         padding: 3px 10px;
         border: 1px solid $color-blue;
         background-color: $color-green;
@@ -59,7 +59,4 @@
 .form input[type="reset"]:hover {
     cursor: pointer;
     color: $color-withe;
-}
-.boton{
-    display: flex;
 }
