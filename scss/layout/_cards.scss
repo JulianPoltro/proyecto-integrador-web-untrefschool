@@ -1,8 +1,10 @@
 .card{
-    transition: animation 1s;
+    transition-duration: 500ms;
+    transition-property: scale box-shadow;
 }
 .card:hover {
-    animation: card-selected 0.4s ease 0.2s both;
+    scale: 1.01;
+    box-shadow: 0 0 20px 0px $color-orange;
 }
 
 .contenedor-cards {
@@ -20,16 +22,4 @@
 
 .card-title {
     color: $color-dark;
-}
-
-@keyframes card-selected {
-    0% {
-        scale: 1;
-        box-shadow: 0 0 0 0 $color-orange;
-    }
-
-    100% {
-        scale: 1.01;
-        box-shadow: 0 0 20px 0px $color-orange;
-    }
 }
