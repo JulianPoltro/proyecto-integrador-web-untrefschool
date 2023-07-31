@@ -99,7 +99,7 @@ main {
 }
 
 .card {
-  transition: card-selected 1s;
+  transition: animation 1s;
 }
 
 .card:hover {
