@@ -98,6 +98,14 @@ main {
   font-family: "Poppins", sans-serif;
 }
 
+.card {
+  transition: card-selected 1s;
+}
+
+.card:hover {
+  animation: card-selected 0.4s ease 0.2s both;
+}
+
 .contenedor-cards {
   display: flex;
   justify-content: center;
@@ -115,6 +123,16 @@ main {
   color: #181823;
 }
 
+@keyframes card-selected {
+  0% {
+    scale: 1;
+    box-shadow: 0 0 0 0 #FC7300;
+  }
+  100% {
+    scale: 1.01;
+    box-shadow: 0 0 20px 0px #FC7300;
+  }
+}
 .footer-link h3 {
   font-family: "Belanosima", sans-serif;
   color: #EFF5F5;

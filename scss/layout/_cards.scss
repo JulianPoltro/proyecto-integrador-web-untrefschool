@@ -1,14 +1,35 @@
-.contenedor-cards{
+.card{
+    transition: animation 1s;
+}
+.card:hover {
+    animation: card-selected 0.4s ease 0.2s both;
+}
+
+.contenedor-cards {
     display: flex;
     justify-content: center;
 }
-.texto-card{
+
+.texto-card {
     display: flex;
     align-items: center;
     font-size: x-large;
     font-family: $fuente-general;
     color: $color-dark;
 }
-.card-title{
+
+.card-title {
     color: $color-dark;
+}
+
+@keyframes card-selected {
+    0% {
+        scale: 1;
+        box-shadow: 0 0 0 0 $color-orange;
+    }
+
+    100% {
+        scale: 1.01;
+        box-shadow: 0 0 20px 0px $color-orange;
+    }
 }
