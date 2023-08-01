@@ -6,7 +6,7 @@
     text-transform: uppercase;
 }
 .form {
-    width: 320px;
+    width: 600px;
     padding: 16px;
     margin: auto;
     border: 3px solid $color-blue;
@@ -21,7 +21,7 @@
     input[type="text"],
     input[type="email"], 
     input[type="tel"] {
-        width: 250px;
+        width: 400px;
         padding: 3px 10px;
         border: 1px solid $color-blue;
         background-color: $color-green;

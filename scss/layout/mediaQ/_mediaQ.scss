@@ -1,0 +1,24 @@
+@media (max-width: 320px) {
+    .form {
+        background: blue;
+    }
+
+    .map-hidden{
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .form {
+        background: red;
+    }
+    .map-hidden{
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 768px) {
+    .form {
+        background: green;
+    }
+}
