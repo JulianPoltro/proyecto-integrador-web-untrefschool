@@ -219,9 +219,47 @@ main {
     display: none;
   }
 }
-@media (min-width: 321px) and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 376px) {
+  .landing h1 {
+    font-size: 35px;
+  }
+  .form {
+    width: 350px;
+  }
+  .form label {
+    width: 90px;
+  }
+  .form input[type=text],
+  .form input[type=email],
+  .form input[type=tel] {
+    width: 240px;
+  }
+  .map-hidden {
+    display: none;
+  }
+}
+@media (min-width: 376px) and (max-width: 425px) {
   .landing h1 {
     font-size: 40px;
+  }
+  .form {
+    width: 400px;
+  }
+  .form label {
+    width: 90px;
+  }
+  .form input[type=text],
+  .form input[type=email],
+  .form input[type=tel] {
+    width: 240px;
+  }
+  .map-hidden {
+    display: none;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  .landing h1 {
+    font-size: 45px;
   }
   .form {
     width: 400px;

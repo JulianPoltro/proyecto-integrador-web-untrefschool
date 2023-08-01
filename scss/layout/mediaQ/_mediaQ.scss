@@ -1,7 +1,8 @@
 @media (max-width: 321px) {
-    .landing h1{
+    .landing h1 {
         font-size: 30px;
     }
+
     .form {
         width: 280px;
 
@@ -10,18 +11,48 @@
         }
 
         input[type="text"],
-        input[type="email"], 
+        input[type="email"],
         input[type="tel"] {
-            width: 240px;}
+            width: 240px;
+        }
     }
 
-    .map-hidden{
+
+    .map-hidden {
+        display: none;
+    }
+
+
+}
+
+
+@media (min-width: 321px) and (max-width: 376px) {
+    .landing h1 {
+        font-size: 35px;
+    }
+
+    .form {
+        width: 350px;
+
+        label {
+            width: 90px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            width: 240px;
+        }
+    }
+
+
+    .map-hidden {
         display: none;
     }
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
-    .landing h1{
+@media (min-width: 376px) and (max-width: 425px) {
+    .landing h1 {
         font-size: 40px;
     }
 
@@ -33,12 +64,36 @@
         }
 
         input[type="text"],
-        input[type="email"], 
+        input[type="email"],
         input[type="tel"] {
-            width: 240px;}
+            width: 240px;
+        }
+    }
+    
+    .map-hidden {
+        display: none;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .landing h1 {
+        font-size: 45px;
     }
 
-    .map-hidden{
+    .form {
+        width: 400px;
+
+        label {
+            width: 90px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            width: 240px;
+        }
+    }
+    .map-hidden {
         display: none;
     }
 }
